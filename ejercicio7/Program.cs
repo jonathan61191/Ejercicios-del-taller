@@ -19,14 +19,20 @@ namespace Ejercicio7
             Console.WriteLine("\n");
             Console.Write("Ingresa el numero 2: ");
             numero2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("\n");
 
             if (numero1 > numero2)
             {
                 resulDivi = numero1 / numero2;
                 Console.Write("El reultado de la division es: " + resulDivi);
-
+                Console.WriteLine("\n");
             }
-
+            else
+            {
+                resulDivi = numero2 / numero1;
+                Console.Write("El reultado de la division es: " + resulDivi);
+                Console.WriteLine("\n");
+            }
 
 
         }
