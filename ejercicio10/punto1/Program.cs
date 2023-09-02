@@ -14,17 +14,17 @@ namespace Ejercicio
             //variable A
             Random rnda = new Random();
 
-            int ramdomA = rnda.Next(1, 8);
+            double ramdomA = rnda.Next(1, 8);
 
             //variable B
             Random rndb = new Random();
 
-            int ramdomB = rndb.Next(1, 8);
+            double ramdomB = rndb.Next(1, 8);
 
             //variable C
             Random rndc = new Random();
 
-            int ramdomC = rndc.Next(1, 9);
+            double ramdomC = rndc.Next(1, 8);
 
 
             parentesis1 = (3 * ramdomA) + (4 * ramdomB);
